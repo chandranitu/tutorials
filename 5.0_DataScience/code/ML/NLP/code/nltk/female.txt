@@ -1,0 +1,1 @@
+[('Zorana', 'female'), ('Zorina', 'female'), ('Zorine', 'female'),('Zoya', 'female')]

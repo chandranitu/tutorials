@@ -1,0 +1,50 @@
+
+Deep learning
+https://www.tensorflow.org/tutorials/images/image_recognition
+https://www.datacamp.com/community/tutorials/tensorflow-tutorial#tensors
+https://www.datacamp.com/community/tutorials/convolutional-neural-networks-python#cnn
+
+https://github.com/tensorflow/models
+https://dzone.com/articles/image-processing-with-deep-learning-a-quick-start
+https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721
+
+
+--------------------------------
+
+curl -L "https://storage.googleapis.com/download.tensorflow.org/models/inception_v3_2016_08_28_frozen.pb.tar.gz"|tar -C tensorflow/examples/label_image/data -xz
+-----------------------
+import sys
+print (sys.version)
+
+-- anaconda
+
+conda create -n tensorflow_env tensorflow
+conda activate tensorflow_env
+
+
+import SciPy
+So I installed Blas and Atalas by executing
+sudo apt-get install blas
+sudo apt-get install atlas
+sudo apt-get install python-numpy python-SciPy
+
+sudo apt-get install python-pip  
+sudo pip install numpy scipy
+
+apt-cache policy python-scipy
+To enable main repository,
+
+sudo add-apt-repository main
+
+To enable universe repository,
+
+sudo add-apt-repository universe
+
+To enable multiverse repository,
+
+sudo add-apt-repository multiverse
+
+To enable restricted repository,
+
+sudo add-apt-repository restricted
+

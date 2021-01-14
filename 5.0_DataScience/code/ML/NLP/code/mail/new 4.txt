@@ -1,0 +1,5 @@
+export SPARK_CLASSPATH=$(hbase classpath)
+
+patient_id
+
+sc.textFile("test.txt").map(lambda line: line.split(",")[:-1]).distinct().count()

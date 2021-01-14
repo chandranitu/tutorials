@@ -1,0 +1,11 @@
+Attached find a file with tweet record. What I want to do is:
+
+·         Find #hashtags in line
+
+·         Create a keyvalue pair with {#hashtags, tweetline)
+
+·         Send tweetline in parallel to an API for sentiment score [1 for positive; 0 for neutral and -1 for -ve]
+
+·         Display a sentiment score chart on timeline vs #hashtag
+
+·         Also, display all the tweets with its sentiment and hashtag filter

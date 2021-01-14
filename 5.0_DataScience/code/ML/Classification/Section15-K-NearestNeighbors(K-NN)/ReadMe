@@ -1,0 +1,1 @@
+The k-Nearest Neighbor (kNN) does not create a model, instead it creates predictions from close data on-demand when a prediction is required. A similarity measure (such as Euclidean distance) is used to locate close data in order to make predictions.

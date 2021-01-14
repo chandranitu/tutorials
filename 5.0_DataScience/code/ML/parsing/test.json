@@ -1,0 +1,19 @@
+{
+    "name": "Python Training",
+    "date": "August 20, 2018",
+    "completed": false,
+    "instructor": {
+        "name": "chandra kumar",
+        "website": "http://cns.com/"
+    },
+    "participants": [
+        {
+            "name": "Participant 1",
+            "email": "email1@gmail.com"
+        },
+        {
+            "name": "Participant 2",
+            "email": "email2@gmail.com"
+        }
+    ]
+}

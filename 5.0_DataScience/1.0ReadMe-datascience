@@ -1,0 +1,133 @@
+python3.6 -m venv my_env
+source my_env/bin/activate
+python
+
+-----------
+AI coding tools
+	Codota
+	kite
+	tabnine --python https://www.tabnine.com/faq/#nongit  
+
+https://news.ycombinator.com/item?id=18394798
+Rust ecosystem
+
+
+-----------------------
+https://medium.com/@theaiinstitute/why-an-online-course-is-not-your-pathway-to-data-science-and-artificial-intelligence-e34c17d81081  
+https://365datascience.com/
+
+https://towardsdatascience.com/linear-regression-with-example-8daf6205bd49
+https://machinelearningmastery.com/load-machine-learning-data-python/
+
+
+
+
+**Want to know more?  https://pos.li/2fg3i4  **
+**One of my clients is hiring (https://lnkd.in/fnQzJMt) until 27 April 2020**
+**Learn BI Tools Comparison https://lnkd.in/fyFamFb**
+
+
+Further Reading
+1. Data Science Process https://pos.li/2ffr3r
+2. Data Visualization in Business https://pos.li/2ffr3w
+3. Understand How to answer Why https://pos.li/2ffr3s
+4. Know ML Key Terminology https://pos.li/2ffr3t
+5. Understand ML Implementation https://pos.li/2ffr3y
+6. ML Applications on Marketing https://pos.li/2ffr3u and Retail https://pos.li/2ffr3v
+
+ #datascience #machinelearning #artificialintelligence
+------------------------
+-------------------
+https://learn.adicu.com/data-science/
+https://learn.adicu.com/intermediate-nlp/  NLP
+https://learn.adicu.com/dl-python/ Deep learning
+
+-----------------------
+sudo apt-get install python3-tk   -- matplotlib to work
+
+pip3 install pandas
+pip3 install scikit-learn
+pip3 install sklearn
+pip3 install keras
+pip install numpy
+pip3 install tensorflow
+pip install scipy
+
+pip3 install ggplot
+pip3 install nltk
+pip3 install itertools
+pip3 install HTMLParser
+pip3 install BeautifulSoup
+pip3 install requests
+
+pip3 install spacy
+pip3 install lasagne
+pip3 install theano
+pip3 install imutils
+
+
+python3 -m spacy.en.download all
+
+https://towardsdatascience.com/hypothesis-testing-using-t-test-inferential-statistics-part3-6fb43683bc32
+
+AI cheat sheet
+https://docs.microsoft.com/en-us/azure/machine-learning/studio/algorithm-choice
+
+
+ML project diabatic
+https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/
+
+
+    Linear Regression
+    Logistic Regression
+    Decision Tree
+    SVM
+    Naive Bayes
+    KNN
+    K-Means
+    Random Forest
+    Dimensionality Reduction Algorithms
+    Gradient Boost & Adaboost
+
+https://www.dezyre.com/article/data-mining-vs-statistics-vs-machine-learning/349
+https://www.kdnuggets.com/2015/09/data-lake-vs-data-warehouse-key-differences.html
+
+
+
+tableau:
+
+https://www.superdatascience.com/training/
+
+https://pythonprogramming.net/matplotlib-python-3-basics-tutorial/
+
+---------------------------------------
+https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-16-04-2
+https://www.datasciencecentral.com/profiles/blogs/difference-between-machine-learning-data-science-ai-deep-learning
+https://www.analyticsvidhya.com/blog/2016/10/17-ultimate-data-science-projects-to-boost-your-knowledge-and-skills/
+
+  518  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+  519  sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
+  520  sudo apt-get update
+  521  sudo apt-get install r-base
+
+$ R  -- start
+
+#sudo -i R
+
+
+installing R Packages from CRAN--
+install.packages('txtplot')
+library('txtplot')
+txtplot(cars[,1], cars[,2], xlab = "speed", ylab = "distance")
+
+
+install.packages("plotrix")
+
+> myString <- "Hello, World!"
+> print ( myString)
+
+--Script
+Rscript /home/hduser/hadoop/hadoop_working/DataScience/test.R
+
+q()  or quit R 
+

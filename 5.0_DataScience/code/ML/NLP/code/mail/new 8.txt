@@ -1,0 +1,5 @@
+spark-submit --master yarn --deploy-mode client usrpath.py 
+ !~/spark/bin/spark-submit --master yarn-client --num-executors 2 --driver-memory 1G ~/spark/examples/src/main/python/wordcount.py s3://myjgbucket/data/raven-wikipedia-extract.txt
+ 
+ ./spark/bin/spark-sql --driver-java-options "-Dlog4j.configuration=file:///home/hadoop/spark/conf/log4j.properties"
+ spark-submit --master yarn --deploy-mode client ReadFilesFromHDFS_v2.py "-Dlog4j.configuration=file:///home/hadoop/spark/conf/log4j.properties"

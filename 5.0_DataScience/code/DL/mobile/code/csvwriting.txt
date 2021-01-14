@@ -1,0 +1,6 @@
+import csv
+with open('D:\project\datascience\mobile\code\large.csv','w') as f1:
+    writer=csv.writer(f1, delimiter='\t',lineterminator='\n',)
+    for i in range(10):
+        row = [i + j*0.2 for j in range(i+1)]
+        writer.writerow(row)

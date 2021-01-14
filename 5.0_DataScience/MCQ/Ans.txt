@@ -1,0 +1,180 @@
+https://www.objectivequiz.com/objective-questions/computer-science/machine-learning
+
+
+---------
+Ans ML_MCQ1-
+1 A
+2 D
+3 D
+4 C
+5 D
+6 A
+7 D
+8 D
+9 C
+10
+11 D
+12 A
+13 A
+14 B
+15 D
+
+
+Ans ML_MCQ2---------------
+
+1. Solution: (D)
+The range of SIGMOID function is [0,1].
+The range of the tanh function is [-1,1].
+The range of the RELU function is [0, infinity].
+2. Solution: (A)The formula for entropy is 
+3. Solution: (B)
+Both models (model1 and model2) are used in Word2vec algorithm. The model1 represent a CBOW model where as Model2 represent the Skip gram model.
+4. Solution: (E)
+In statistical hypothesis testing, a type I error is the incorrect rejection of a true null hypothesis (a “false positive”), while a type II error is incorrectly retaining a false null hypothesis (a “false negative”).
+5.Solution: (D)
+Stemming is a rudimentary rule-based process of stripping the suffixes (“ing”, “ly”, “es”, “s” etc) from a word.
+Stop words are those words which will have not relevant to the context of the data for example is/am/are.
+Object Standardization is also one of the good way to pre-process the text.
+6.Solution: (B)
+t-SNE algorithm consider nearest neighbour points to reduce the dimensionality of the data. So, after using t-SNE we can think that reduced dimensions will also have interpretation in nearest neighbour space. But in case of PCA it is not the case.
+7.Solution: (D)
+8.Solution:(E)
+You cannot remove the both features because after removing the both features you will lose all of the information so you should either remove the only 1 feature or you can use the regularization algorithm like L1 and L2.
+9.Solution: (A)
+After adding a feature in feature space, whether that feature is important or unimportant features the R-squared always increase.
+10.Solution: (E)
+Correlation between the features won’t change if you add or subtract a value in the features.
+11.Solution: (A)
+12.Solution: (A)
+Weak learners are sure about particular part of a problem. So, they usually don’t overfit which means that weak learners have low variance and high bias.
+13.Solution: (D)
+Larger k value means less bias towards overestimating the true expected error (as training folds will be closer to the total dataset) and higher running time (as you are getting closer to the limit case: Leave-One-Out CV). We also need to consider the variance between the k folds accuracy while selecting the k.
+
+14.Solution: (D)
+Each iteration for depth “2” in 5-fold cross validation will take 10 secs for training and 2 second for testing. So, 5 folds will take 12*5 = 60 seconds. Since we are searching over the 10 depth values so the algorithm would take 60*10 = 600 seconds. But training and testing a model on depth greater than 2 will take more time than depth “2” so overall timing would be greater than 600.
+
+15.Solution: (D)
+-------------
+
+ML_MCQ3.txt--------------
+
+1. (A), (C), (D)
+2 D
+3 C,D
+4 A,B,C
+5 A,C,D
+6 A
+7 C
+8 NO
+9 A
+10 A
+11 A
+12 B    Ordinal variables are the variables which has some order in their categories. For example, grade A should be consider as high grade than grade B.
+13 A    A deterministic algorithm is that in which output does not change on different runs. PCA would give the same result if we run again, but not k-means.
+14 A    Y=X2. Note that, they are not only associated, but one is a function of the other and Pearson correlation between them is 0.
+15 A    In SGD for each iteration you choose the batch which is generally contain the random sample of data But in case of GD each iteration contain the all of the 		training observations.
+16 B    Usually, if we increase the depth of tree it will cause overfitting. Learning rate is not an hyperparameter in random forest. Increase in the number of tree 		will cause under fitting.
+17 A    number of views of articles is continuous target variable which fall under the regression problem. So, mean squared error will be used as an evaluation metrics.
+18 (D)
+	Both are true, The OHE will fail to encode the categories which is present in test but not in train so it could be one of the main challenges while applying 		OHE. The challenge given in option B is also true you need to more careful while applying OHE if frequency distribution doesn’t same in train and test.
+19  (B) The function is a tanh because the this function output range is between (-1,-1).
+20  (B) Log loss cannot have negative values.
+
+
+
+ML_MCQ4.txt--------------
+
+1.(D) Looking at the table, option D seems the best
+2.(A)When the data has a zero mean vector PCA will have same projections as SVD, otherwise you have to centre the data first before taking SVD.
+3.(A)In first step, you pass an observation (q1) in the black box algorithm so this algorithm would return a nearest observation and its class.
+In second step, you through it out nearest observation from train data and again input the observation (q1). The black box algorithm will again return the a nearest observation and it’s class.You need to repeat this procedure k times
+4.Solution: (A)
+5.Solution: (B)
+from image 1to 4 correlation is decreasing (absolute value). But from image 4 to 7 correlation is increasing but values are negative (for example, 0, -0.3, -0.7, -0.99).
+6.Solution: (D)
+Options are self-explanatory.
+7.Solution: (C)
+In Leave-One-Out cross validation, we will select (n-1) observations for training and 1 observation of validation. Consider each point as a cross validation point and then find the 3 nearest point to this point. So if you repeat this procedure for all points you will get the correct classification for all positive class given in the above figure but negative class will be misclassified. Hence you will get 80% accuracy.
+8.Solution: (A)
+Each point which will always be misclassified in 1-NN which means that you will get the 0% accuracy.
+9.Solution: (B)
+By looking at the image, we see that even on just using x2, we can efficiently perform classification. So at first w1 will become 0. As regularization parameter increases more, w2 will come more and more closer to 0.
+10.Solution: (A)
+If you fit decision tree of depth 4 in such data means it will more likely to underfit the data. So, in case of underfitting you will have high bias and low variance.
+11.Solution: (D)
+All of the option can be tuned to find the global minima.
+12.Solution: (C)
+The Accuracy (correct classification) is (50+100)/165 which is nearly equal to 0.91.
+The true Positive Rate is how many times you are predicting positive class correctly so true positive rate would be 100/105 = 0.95 also known as “Sensitivity” or “Recall”
+13.Solution: (E)
+For all three options A, B and C, it is not necessary that if you increase the value of parameter the performance may increase. For example, if we have a very high value of depth of tree, the resulting tree may overfit the data, and would not generalize well. On the other hand, if we have a very low value, the tree may underfit the data. So, we can’t say for sure that “higher is better”.
+14.Solution: (A)
+The formula for calculating output size is
+output size = (N – F)/S + 1
+where, N is input size, F is filter size and S is stride.
+15.Solution: (B)
+16.Solution: (C)
+
+
+ML_MCQ5.txt--------------
+1.D
+2.B
+3.Answer: d
+Explanation: Interpretability also matters during prediction.
+4.Answer: a
+Explanation: Out of sample error is given more importance.
+5.Answer: a
+Explanation: Backtesting is the process of applying a trading strategy or analytical method to historical data to see how accurately the strategy or method would have predicted actual results.
+6.Ans- B
+7.Ans- false
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+
+---------
+Ans ML_MCQ6
+1 A
+2 C
+3 D
+4 B
+5 C
+6 A   Problem generator will give the suggestion to improve the output for learning agent.
+7 B   An agent can improve its performance by storing its previous actions.
+8 D   A utility function maps a state onto a real number which describes the associated degree of happiness.
+9 D
+10 B
+14
+15
+
+ML_MCQ7.txt--------------
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+
