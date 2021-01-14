@@ -1,9 +1,0 @@
-{
-  "name": "my-app",
-  "dependencies": {
-    "ember": "test/ember#canary"
-  },
-  "resolutions": {
-    "ember": "canary"
-  }
-}
