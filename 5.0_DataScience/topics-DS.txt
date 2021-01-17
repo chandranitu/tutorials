@@ -2,16 +2,17 @@ Entire code is in DS code (ML,DL, python)
 sudo apt-get install python3-tk  for gui in pycharm
 ------------
 seed
-hypothesis testing-
+Hypothesis Testing-
 Error types
 RoC curve
-confusion matrix
-trap
-overfitting/underfitting
+Confusion matrix
+Trap
+Overfitting/Underfitting
+Harness
 F1 score
 L1 &L2 Regularization
 PCA
-confounding
+Confounding
 LogLoss evaluation
 Sigmoid Fn
 Entropy
@@ -19,6 +20,9 @@ Elbow method
 FF transform
 Distribution functions
 Hidden markov
+Epoc
+Feature selection
+
 
 
 # Data Preprocessing
